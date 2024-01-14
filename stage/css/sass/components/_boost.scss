@@ -1,0 +1,27 @@
+.boost
+{
+    min-height: 200px;
+    text-align:center;
+    background: url('../images/bg-boost-desktop.svg');
+    background-size: cover;
+    position: relative;
+
+    .boostContent button
+    {
+        height: 50px;
+        width: 160px;
+        margin-left: 25%;
+    }
+    h2
+    {
+        color: #FFF;
+    }
+}
+@media (max-width: 768px)
+{
+    .boost
+    {
+        background: url('../images/bg-boost-mobile.svg');
+    }
+
+}

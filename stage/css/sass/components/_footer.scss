@@ -1,0 +1,42 @@
+footer
+{
+    min-height: 330px;
+    background-color: $footerColor;
+    padding-top: 50px;
+    color: #FFF;
+    padding-bottom: 20px;
+
+    h4
+    {
+        margin-bottom: 2rem;
+    }
+    a
+    {
+        display: block;
+        padding: 6px 0;
+    }
+    .socialLinks>a
+    {
+        display: inline
+    }
+    a:hover
+    {
+        color: $hoverColor;
+    }
+    img
+    {
+        margin: 8px;
+    }
+}
+@media (max-width: 992px)
+{
+    footer
+    {
+        text-align: center;
+    }
+    h4
+    {
+        margin-bottom: 0 !important;
+        margin-top: 2rem;
+    }
+}

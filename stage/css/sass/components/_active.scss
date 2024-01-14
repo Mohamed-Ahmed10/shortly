@@ -1,0 +1,95 @@
+.active
+{
+    min-height:500px;
+    width:100%;
+    text-align: center;
+    position: relative;
+
+    p
+    {
+        margin-bottom: 100px;
+    }
+    .line
+    {
+        position: absolute;
+        top: 60%;
+        left:25%;
+        height: 5px;
+        width:50%;
+        background-color: $mainColor;
+        z-index:0
+    }
+    .featurecontainer
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .feature
+    {
+        height:250px;
+        width: 250px;
+        background-color: #FFF;
+        position: relative;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        text-align:center;
+        padding-top: 40px;
+        .circle
+        {
+            position: absolute;
+            top: -35px;
+            left: 20px;
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            background-color: $secondColor;
+
+            img
+            {
+                margin-top: 15px;
+            }
+        }
+        .featureDetails
+        {
+            padding: 20px;
+            text-align: left;
+        }
+        p
+        {
+            font-size: 14px;
+        }
+    }
+    .featureOne
+    {
+        margin-top:-20px ;
+    }
+    .featureThree
+    {
+        margin-top:20px ;
+    }
+}
+@media (max-width: 992px) {
+    .featureOne ,
+    .featureThree
+    {
+        margin-top:0
+    }
+    .active .line
+    {
+        transform: rotate(90deg);
+        width: 100%;
+        left:0;
+        top:57%
+    }
+    .featurecontainer
+    {
+        margin:50px 0
+    }
+}

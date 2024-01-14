@@ -1,0 +1,80 @@
+.shortenDiv
+{
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    .shortenBox
+    {
+        background-image: url('../images/bg-shorten-desktop.svg');
+        background-size: cover;
+        width: 100%;
+        height: 120px;
+        position: relative;
+        margin-top:-50px ;
+        overflow: hidden;
+        border-radius:10px ;
+        -webkit-border-radius:10px ;
+        -moz-border-radius:10px ;
+        -ms-border-radius:10px ;
+        -o-border-radius:10px ;
+        .overlay
+        {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #6b278a8f;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+        }
+        .row
+        {
+            width:100%;
+        }
+        button
+        {
+            border-radius: 7px;
+            -webkit-border-radius: 7px;
+            -moz-border-radius: 7px;
+            -ms-border-radius: 7px;
+            -o-border-radius: 7px;
+            width: 80%;
+            margin: 0;
+            font-size: 14px;
+
+            @media (max-width: 768px) 
+            {
+                margin-top:5px;
+                width: 100%;
+            }
+        }
+        .shortenInput
+        {
+            width: 100%;
+            height: 40px;
+            border-radius: 7px;
+            -webkit-border-radius: 7px;
+            -moz-border-radius: 7px;
+            -ms-border-radius: 7px;
+            -o-border-radius: 7px;
+            border: none;
+            padding-left:20px
+        }
+    }
+}
+@media (max-width: 767.98px)
+
+{
+    .shortenBox
+    {
+        background-image: url('../images/bg-shorten-mobile.svg');
+    }
+}

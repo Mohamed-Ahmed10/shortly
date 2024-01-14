@@ -1,0 +1,26 @@
+.definitionDiv
+{
+    padding: 10% 0;
+    background-color: #FFF;
+    .row
+    {
+        flex-direction: row-reverse;
+
+        >div
+        {
+        overflow :hidden;
+        }
+    }
+    h1
+    {
+        font-size: 4.5rem;
+    }
+    p
+    {
+        font-size:23px;
+    }
+    .startbtn
+    {
+        width: 130px;
+    }
+}

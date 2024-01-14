@@ -1,0 +1,54 @@
+nav 
+{
+    font-weight: bold;
+    background-color: transparent;
+    padding-top:15px;
+    background-color: #FFF;
+    .navbar-nav
+    {
+        text-align: center;
+    }
+    .navbar-brand
+    {
+        padding-right: 20px;
+    }
+    .nav-item
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .login
+    {
+        background-color: transparent;
+        color: #bbb;
+    }
+}
+@media (max-width: 992px)
+{
+    .navbar-collapse
+    {
+        background: $secondColor;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        color:#FFF;
+        padding: 20px 0;
+    }
+    .navbar-toggler:hover ,
+    .navbar-toggler:active
+    {
+        background-color: transparent;
+        border:none;
+        outline:none
+    }
+    .navbar-toggler img
+    {
+        height: 40px;
+    }
+    .signUp
+    {
+        width: 80%;
+    }
+}
