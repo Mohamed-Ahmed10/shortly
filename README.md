@@ -6,4 +6,4 @@ ______________________________________________
 
 ### `Live preview`
 
-[https://mohamed-ahmed10.github.io/shortly](https://mohamed-ahmed10.github.io/shortly)
+[https://mohamed-ahmed10.github.io/shortly/dist](https://mohamed-ahmed10.github.io/shortly/dist)
